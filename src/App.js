@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState , useEffect} from 'react';
+import Countries from './countries/countries';
 
 
 function App() {
   return (
     <div className="App">
       
-      <Loadcountries></Loadcountries>
+      {/* <Loadcountries></Loadcountries> */}
+
+      <Countries></Countries>
       
     </div>
   );
