@@ -10,6 +10,9 @@ const Countries = () => {
     return (
         <div>
             <h1>Hello country{countries.length}</h1>
+            {
+                countries.map(country => console.log(country))
+            }
         </div>
     );
 };
