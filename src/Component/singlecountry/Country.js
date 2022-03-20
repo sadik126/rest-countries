@@ -6,6 +6,7 @@ const Country = (props) => {
         <div className='country'>
             <h2>Country name:{props.name}</h2>
             <h3>population: {props.population}</h3>
+            <img src={props.img.png} alt="" />
         </div>
     );
 };

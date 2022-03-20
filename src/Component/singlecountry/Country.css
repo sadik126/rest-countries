@@ -3,3 +3,13 @@
   padding: 20px;
   background-color: aqua;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.container img {
+  width: 150px;
+}
